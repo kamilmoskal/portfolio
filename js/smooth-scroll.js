@@ -103,6 +103,16 @@ function scrollIt(
       }
       return;
     }
+    // The fix to support scrolling up/down on any zoom (Google Chrome)
+    const stopResult = (window.pageYOffset / destinationOffsetToScroll).toFixed(
+      2
+    );
+    if (stopResult === "1.00" || stopResult === "0.99") {
+      if (callback) {
+        callback();
+      }
+      return;
+    }
 
     requestAnimationFrame(scroll);
   }
