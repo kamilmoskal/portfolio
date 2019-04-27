@@ -51,6 +51,7 @@
   text-transform: uppercase;
   font-size: 3rem;
   will-change: opacity;
+  transform: translateZ(0);
   padding: 10px 0;
 
   &:before,

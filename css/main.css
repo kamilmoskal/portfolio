@@ -55,6 +55,8 @@
   text-transform: uppercase;
   font-size: 3rem;
   will-change: opacity;
+  -webkit-transform: translateZ(0);
+          transform: translateZ(0);
   padding: 10px 0;
 }
 
