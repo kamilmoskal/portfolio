@@ -53,6 +53,7 @@
   will-change: opacity;
   transform: translateZ(0);
   padding: 10px 0;
+  z-index: 2;
 
   &:before,
   &:after {

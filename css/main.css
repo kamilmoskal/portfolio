@@ -58,6 +58,7 @@
   -webkit-transform: translateZ(0);
           transform: translateZ(0);
   padding: 10px 0;
+  z-index: 2;
 }
 
 .section-title:before, .section-title:after {
